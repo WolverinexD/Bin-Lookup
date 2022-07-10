@@ -26,7 +26,7 @@ export default async (bin: number): Promise<Result> => {
   const countryInfo = emoji.countryCode(country);
 
   return {
-    result: true,
+    result: 'true',
     message: 'Search Successful',
     data: {
       bin,
