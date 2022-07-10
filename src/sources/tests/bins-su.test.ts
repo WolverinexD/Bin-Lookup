@@ -4,7 +4,7 @@ import { NotFound } from '../../errors';
 
 ava('found', async test => {
   test.deepEqual(await binssu(439129), {
-    result: true,
+    result: "true",
     message: 'Search Successful',
     data: {
       bin: 439129,
