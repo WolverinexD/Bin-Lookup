@@ -50,7 +50,7 @@ export default async (bin: number): Promise<Result> => {
   );
 
   return {
-    result: true,
+    result: 'true',
     message: 'Search Successful',
     data: {
       bin,
