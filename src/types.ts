@@ -1,5 +1,5 @@
 export interface Result {
-  result: boolean;
+  result: "True";
   message: string;
   data?: {
     bin: number;
